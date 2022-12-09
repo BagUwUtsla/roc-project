@@ -1,12 +1,14 @@
-{
-    "module 1": {
-        "color": "#FF0000",
-        "position x": 50.6294457,
-        "position y": 3.1653945
+[
+    {
+        "name": "Guts",
+        "color": "blue",
+        "x": 50.6294457,
+        "y": 3.1653945
     },
-    "module @": {
-        "color": "#0000FF",
-        "position x": 50.6285473,
-        "position y": 3.1627981
+        {
+        "name": "Serpico",
+        "color": "red",
+        "x": 50.6285473,
+        "y": 3.1627981
     }
-}
+]

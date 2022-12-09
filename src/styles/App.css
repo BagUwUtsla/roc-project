@@ -1,0 +1,14 @@
+.app {
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+}
+
+.modules{
+  grid-column: 1/4;
+  grid-row: 1;
+}
+
+.map{
+  grid-column: 3/4;
+  grid-row: 1;
+}
