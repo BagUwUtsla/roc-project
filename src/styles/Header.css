@@ -20,4 +20,5 @@
 
 .item:hover{
     color: white  ;
+    cursor: pointer;
 }
