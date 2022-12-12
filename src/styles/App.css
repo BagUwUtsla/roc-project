@@ -1,4 +1,10 @@
 .app {
   display: flex;
   flex-direction: row;
+  justify-content: space-between;
+  align-self: flex-end;
+}
+
+.app .map{
+  flex-grow: 1;
 }

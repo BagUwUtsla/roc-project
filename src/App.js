@@ -6,9 +6,11 @@ import Modules from "./components/Modules";
 function App() {
   return (
     <div>
-      <Header />
       <div className="app">
-        <Modules className="modules" />
+        <div>
+          <Header className="header" />
+          <Modules className="modules" />
+        </div>
         <Map className="map" />
       </div>
     </div>

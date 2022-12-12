@@ -1,0 +1,23 @@
+.logo{
+    width: 5vw;
+}
+
+.header{
+    background-color: rgb(33,69,48);
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 20px;
+    width: 100%;
+}
+
+.item{
+    font-family:Verdana, Geneva, Tahoma, sans-serif ;
+    font-size: 1.25rem;
+    color: lightgray;
+    transition: color 200ms ease-in-out 200ms;
+}
+
+.item:hover{
+    color: white  ;
+}
