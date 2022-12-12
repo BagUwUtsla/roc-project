@@ -2,6 +2,7 @@ import "./styles/App.css";
 import Header from "./components/Header";
 import Map from "./components/Map";
 import Modules from "./components/Modules";
+import MapTest from "./components/MapTest";
 
 function App() {
   return (
@@ -11,7 +12,7 @@ function App() {
           <Header className="header" />
           <Modules className="modules" />
         </div>
-        <Map className="map" />
+        <MapTest className="map" />
       </div>
     </div>
   );
